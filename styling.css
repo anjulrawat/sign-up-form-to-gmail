@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+*{
+    margin: auto;
+    padding: 30px 30px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border border-box;
+}
+body{
+background: #000;
+color: #fff;
+}
+fieldset{
+    border: none;
+}
+
+.signup-form h1{
+    font-size: 60px;
+    position:relative;
+}
+.signup-form {
+    width: 100%;
+    margin: auto;
+}
+.signup-form input{
+    width: 100%;
+    border:0;
+    outline: none;
+    background:black;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+}
+
+.btn{
+    display: block;
+    margin-left: 0px;
+    width: max-content;
+    border: 1px solid goldenrod;
+    padding: 14px 50px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    }
+    
+    .btn:hover{
+        background: red;
+        transform: translateY(-5px);
+    }
+
+    .radiobtn{
+        display: inline-flex;
+        text-decoration: none;
+        font-size: 20px;
+}
+.checkbox{
+    display:block;
+    padding:0;
+    margin:0;
+    border:none;
+    background-color: black;
+    max-width: 100%;                 ;
+}
+.checkbox input{
+    height:1em;
+    width: 1em;
+    vertical-align: middle;;
+}
+   
+    
